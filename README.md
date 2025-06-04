@@ -45,12 +45,13 @@ Recreate the provided UI screens using the specified tech stack, ensuring:
   - Question solved progress
 - 📊 **Dynamic Stats** based on filters
 - 💡 **Icons** from [Phosphor Icons](https://phosphoricons.com) randomly assigned to chapters
+```
 
+```markdown
 ---
 
 ## 📁 Folder Structure
 
-```
 
 chapter-dashboard-master/
 ├── public/
