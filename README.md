@@ -1,36 +1,147 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Thanks! Here's the updated **README.md** with your corrected folder structure:
 
-## Getting Started
+---
 
-First, run the development server:
+```markdown
+# JEE Main PYQs - Chapter Wise Dashboard (MathonGo Sample Task)
+
+A responsive and interactive chapter-wise question analysis dashboard built with **Next.js**, **Tailwind CSS**, **shadcn/ui**, and **Redux Toolkit**. This project is a submission for the MathonGo Frontend Developer Sample Task, matching the provided Figma designs with pixel perfection.
+
+---
+
+## 🔍 Objective
+
+Recreate the provided UI screens using the specified tech stack, ensuring:
+
+- Pixel-perfect UI based on Figma
+- Full responsiveness (mobile & desktop)
+- Dark mode support
+- Interactive filters, sorting, and tabs
+- Integration of chapter data from JSON
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js (App Router)**
+- **Tailwind CSS**
+- **shadcn/ui**
+- **Redux Toolkit**
+- **Phosphor Icons**
+- **TypeScript**
+
+---
+
+## ✨ Features
+
+- 🔁 **Tabs** for Physics, Chemistry, and Mathematics
+- 🔍 **Filters**: Class, Units, Status, Weak Chapters (Multi-select)
+- 🔃 **Sorting**: Alphabetical order toggle (A-Z / Z-A)
+- 🌗 **Dark Mode Toggle** (System preference respected)
+- 📘 **Chapter List** with:
+  - Chapter name
+  - Status
+  - Year-wise question count
+  - Question solved progress
+- 📊 **Dynamic Stats** based on filters
+- 💡 **Icons** from [Phosphor Icons](https://phosphoricons.com) randomly assigned to chapters
+
+---
+
+## 📁 Folder Structure
+
+```
+
+chapter-dashboard-master/
+├── public/
+│   ├── JeeMain.png        # App Icon
+│   ├── globe.svg          # Optional Icons
+│   └── window\.svg
+├── src/
+│   ├── app/
+│   │   └── page.tsx       # Main entry page
+│   └── lib/
+│       └── chapters.json  # Mock JSON data
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── ...other config/files
+
+````
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd chapter-dashboard-master
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Open in browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧪 Mock Data Structure
 
-To learn more about Next.js, take a look at the following resources:
+```json
+[
+  {
+    "subject": "Physics",
+    "chapter": "Mathematics in Physics",
+    "class": "Class 11",
+    "unit": "Mechanics 1",
+    "status": "Not Started",
+    "questionSolved": 10,
+    "isWeakChapter": true,
+    "yearWiseQuestionCount": {
+      "2025": 5,
+      "2024": 2
+    }
+  }
+]
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔄 Filters & Behavior
 
-## Deploy on Vercel
+* Filters update chapter list in real-time
+* "Weak Chapters" filters only weak-marked chapters
+* "Not Started" filters by `status`
+* Class and Unit filters are dynamically generated and multi-select
+* Sorting toggle supports A-Z / Z-A
+* Icons and indicators (like green/red arrows) reflect performance
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📦 Deployment
+
+The app is deployed on **Vercel**:
+
+🔗 **Live Demo**: [https://chapter-dash-board.vercel.app/](https://chapter-dash-board.vercel.app/)
+📁 **GitHub Repo**: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
+
+```
+
+Let me know if you'd like to auto-generate a fancy README with a banner image, badges, or markdown GIFs for the UI preview.
+```
