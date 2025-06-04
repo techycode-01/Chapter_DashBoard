@@ -53,19 +53,35 @@ Recreate the provided UI screens using the specified tech stack, ensuring:
 
 
 chapter-dashboard-master/
-├── public/
-│   ├── JeeMain.png        # App Icon
-│   ├── globe.svg          # Optional Icons
-│   └── window\.svg
-├── src/
-│   ├── app/
-│   │   └── page.tsx       # Main entry page
-│   └── lib/
-│       └── chapters.json  # Mock JSON data
-├── package.json
-├── tailwind.config.ts
-├── tsconfig.json
-└── ...other config/files
+public/
+    ├── file.svg
+    ├── globe.svg
+    ├── JeeMain.png
+    ├── next.svg
+    ├── vercel.svg
+    └── window.svg
+src/
+    ├── app/
+        ├── components/
+            └── ui/
+                ├── switch.tsx
+                └── tabs.tsx
+        ├── favicon.ico
+        ├── globals.css
+        ├── layout.tsx
+        └── page.tsx
+    └── lib/
+        ├── chapters.json
+        └── utils.ts
+.gitignore
+components.json
+eslint.config.mjs
+next.config.ts
+package-lock.json
+package.json
+postcss.config.mjs
+README.md
+tsconfig.json
 
 ````
 
