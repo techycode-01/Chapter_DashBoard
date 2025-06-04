@@ -139,7 +139,7 @@ Visit [http://localhost:3000](http://localhost:3000) to view the app.
 The app is deployed on **Vercel**:
 
 🔗 **Live Demo**: [https://chapter-dash-board.vercel.app/](https://chapter-dash-board.vercel.app/)
-📁 **GitHub Repo**: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
+📁 **GitHub Repo**: [https://github.com/techycode-01/Chapter_DashBoard](https://github.com/techycode-01/Chapter_DashBoard)
 
 ```
 
