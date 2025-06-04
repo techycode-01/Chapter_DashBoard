@@ -48,7 +48,6 @@ Recreate the provided UI screens using the specified tech stack, ensuring:
 ```
 
 ```markdown
----
 
 ## 📁 Folder Structure
 
